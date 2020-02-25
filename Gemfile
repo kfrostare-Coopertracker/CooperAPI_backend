@@ -7,6 +7,7 @@ end
 ruby '2.5.1'
 
 gem 'bootsnap', '>= 1.2', require: false
+gem 'rack-cors', require: 'rack/cors'
 gem 'rails', '~> 6.0.2'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
@@ -22,7 +23,5 @@ end
 group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
-  #Use Rack CORS for handling Cross-Origin Resource Sharing (CORS)
-  gem 'rack-cors', require: 'rack/cors'
+  gem 'spring-watcher-listen', '~> 2.0.0'  
 end
