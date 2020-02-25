@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-git_source(:github) do |CooperAPI_backend|
+git_source(:github) do |repo_name|
   repo_name = "#{CooperAPI_backend}/#{CooperAPI_backend}" unless CooperAPI_backend.include?("/")
   "https://github.com/#{CooperAPI_backend}.git"
 end
