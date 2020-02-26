@@ -4,7 +4,7 @@ RSpec.describe User, type: :model do
   pending "add some examples to (or delete) #{__FILE__}"
 
   describe 'Database table' do
-    it { is_expected.to have_db_column :encrypred_password }
+    it { is_expected.to have_db_column :encrypted_password }
     it { is_expected.to have_db_column :email }
     it { is_expected.to have_db_column :tokens }    
   end
