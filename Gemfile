@@ -6,6 +6,7 @@ end
 
 ruby '2.5.1'
 
+gem 'devise_token_auth'
 gem 'bootsnap', '>= 1.2', require: false
 gem 'rack-cors', require: 'rack/cors'
 gem 'rails', '~> 6.0.2'
