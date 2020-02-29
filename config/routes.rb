@@ -5,7 +5,7 @@ Rails.application.routes.draw do
       resources :pings, only: [:index], constraints: { format: 'json' }
     end
     namespace :v1, defaults: { format: :json } do
-      resources :performance_data, only: [:create] #this might be moved down to the last end
+      resources :performance_data, only: [:create, :index] 
     end
   end
 end
