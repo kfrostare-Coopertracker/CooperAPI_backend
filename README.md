@@ -1,7 +1,7 @@
 # [The Cooper Tracker (API)](http://kfrostare-cooperapp.netlify.com/) [![Netlify Status](https://api.netlify.com/api/v1/badges/2613983d-db4f-4e1e-a22f-4ae66045ca34/deploy-status)](https://app.netlify.com/sites/kfrostare-cooperapp/deploys)
 Authors are [Karolina Frostare](https://github.com/kfrostare) and [Daniel Bryant](https://github.com/DanielGITB)<br>*Click on the title to visit the application.*
 
-![Cooper Runners App](public/cooper_app_printscreen.png)
+![Cooper Runners App](public/printscreen_loggedin.png)
 
 
 ### Description
@@ -108,3 +108,6 @@ This project is licensed under the MIT License.
 * [Jaime Cruz](https://github.com/JaimeCrz) for helping us out with deployment
 * [PixaBay](https://pixabay.com/) for a huge library of amazing and inspiring images, royalty free - one of which we chose to use for this app
 * [CraftAcademy](https://www.craftacademy.se/english/) for supplying the basic structure of this application
+* [Codevolution](https://www.youtube.com/watch?v=j5P9FHiBVNo) for teaching us about inline styling
+* [Canva](https://www.canva.com/colors/color-palette-generator/) for finding awesome colors for styling
+* [Chart.js](https://www.chartjs.org/docs/latest/charts/radar.html) for cool charts
